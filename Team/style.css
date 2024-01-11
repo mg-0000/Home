@@ -16,6 +16,28 @@
   overflow: hidden;
 }
 
+.quote {
+  position: relative;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 30px; /* 125% */
+  margin: auto;
+  text-align: left;
+  float: auto;
+  vertical-align: middle;
+  left: 380px;
+  bottom: -25px;
+}
+
 .team .frame {
   position: relative;
   width: 1239px;
@@ -468,7 +490,7 @@
   height: 86px;
   top: 2140px;
   left: 0;
-  background-color: #ffffff;
+  background-color: #9174db;
 }
 
 .team .neuralthread {

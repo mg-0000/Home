@@ -78,11 +78,11 @@
 
 .gallery .neuralthread-wrapper {
   position: absolute;
-  width: device-width;
+  width: auto;
   height: 86px;
   top: 707px;
   left: 0;
-  background-color: #ffffff;
+  background-color: #9174db;
 }
 
 .gallery .neuralthread {
@@ -162,6 +162,7 @@
 /* Hide the images by default */
 .mySlides-1 {
   display: none;
+  height: fit-content;
 }
 
 .mySlides-2 {
@@ -248,20 +249,23 @@
 .quote {
   position: relative;
   display: flex;
-  width: auto;
-  height: auto;
+  width: fit-content;
+  height: fit-content;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
   color: #FFF;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 12px;
   font-style: italic;
   font-weight: 300;
   line-height: 30px; /* 125% */
   margin: auto;
-  text-align: center;
-  float: center;
+  text-align: left;
+  float: auto;
+  vertical-align: middle;
+  left: 380px;
+  bottom: -25px;
 }
 
 .label {
