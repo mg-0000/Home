@@ -43,7 +43,7 @@
 .gallery .group {
   position: relative;
   width: 1158px;
-  height: 450px;
+  height: 400px;
 }
 
 .gallery .rectangle {
@@ -243,6 +243,45 @@
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+.quote {
+  position: relative;
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 30px; /* 125% */
+  margin: auto;
+  text-align: center;
+  float: center;
+}
+
+.label {
+  width: 478px;
+  height: 54px;
+}
+
+.label .text-wrapper {
+  position: fixed;
+  width: 478px;
+  height: 54px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-LightItalic", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 30px;
 }
 
 
